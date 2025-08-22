@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --cor01: #49281f;
+    --cor02: #564334;
+    --cor03: #758918;
+    --cor04: #9e9a41;
+    --cor05: #e2e79a;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--cor01);
+    color: var(--cor05);
+}
+
+header img {
+    width: 100px;
+}
