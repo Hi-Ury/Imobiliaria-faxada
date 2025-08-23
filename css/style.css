@@ -5,11 +5,13 @@
 }
 
 :root {
-    --cor01: #49281f;
-    --cor02: #564334;
-    --cor03: #758918;
-    --cor04: #9e9a41;
-    --cor05: #e2e79a;
+    --fundo-principal: #0d0d0d;
+    --fundo-principal-opaco: #0d0d0da8;
+    --fundo-segundario: #1a1a1a;
+    --cor-detalhes: #c5a46d;
+    --cor-destaque :#3a0d1e;
+    --texto-principal: #f2f2f2;
+    --texto-segundario: #0d0d0d;
 }
 
 header {
@@ -17,10 +19,144 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: var(--cor01);
-    color: var(--cor05);
+    background-color: var(--fundo-principal);
+    color: var(--texto-principal);
+    position: sticky;
+    top: -15px;
 }
 
 header img {
     width: 100px;
+}
+
+.hero{
+    background-image: url(../imagens/predio-imobiliaria-fachada.png);
+    background-position: bottom;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: var(--texto-principal);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero div {
+    background-color: var(--fundo-principal-opaco);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero button {
+    padding: 5px;
+    width: 180px;
+    border-radius: 10px;
+    color: var(--texto-segundario);
+    background-color: var(--cor-detalhes);
+    border: solid 2px var(--cor-detalhes);
+}
+
+.hero button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--texto-principal);
+    border: solid 2px var(--texto-principal);
+    transition-duration: 0.5s;
+}
+
+.servico {
+    background-color: var(--fundo-segundario);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.card {
+    background-color: var(--fundo-principal-opaco);
+    width: 30%;
+    height: 250px;
+    padding: 5px;
+    color: var(--texto-principal);
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card h2 {
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 1px 5px var(--cor-detalhes);
+    transition-duration: 0.5s;
+}
+.educacao {
+    background-color: var(--cor-destaque);
+    padding: 20px;
+    color: var(--texto-principal);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.educacao button{
+    padding: 5px;
+    width: 180px;
+    border-radius: 10px;
+    color: var(--texto-segundario);
+    background-color: var(--cor-detalhes);
+    border: solid 2px var(--cor-detalhes);
+}
+
+.educacao button:hover {
+    background-color: var(--fundo-principal);
+    color: var(--texto-principal);
+    border: solid 2px var(--texto-principal);
+    transition-duration: 0.5s;
+}
+
+footer {
+    background-color: var(--fundo-principal);
+    padding: 5px;
+    color: var(--texto-principal);
+    font-size: 14px;
+    gap: 10px;
+    border-top: solid 2px var(--cor-detalhes);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer section {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+
 }
