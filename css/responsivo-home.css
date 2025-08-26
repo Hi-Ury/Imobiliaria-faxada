@@ -1,0 +1,9 @@
+@media(min-width:768px) {
+    .servico {
+        flex-direction: row;
+    }
+
+    .card{
+        width: 30%;
+    }
+}
