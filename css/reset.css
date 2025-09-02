@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --fundo-principal: #0d0d0d;
+    --fundo-principal-opaco: #0d0d0da8;
+    --fundo-segundario: #1a1a1a;
+    --cor-detalhes: #c5a46d;
+    --cor-destaque :#3a0d1e;
+    --texto-principal: #f2f2f2;
+    --texto-segundario: #0d0d0d;
+}

@@ -1,34 +1,3 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-:root {
-    --fundo-principal: #0d0d0d;
-    --fundo-principal-opaco: #0d0d0da8;
-    --fundo-segundario: #1a1a1a;
-    --cor-detalhes: #c5a46d;
-    --cor-destaque :#3a0d1e;
-    --texto-principal: #f2f2f2;
-    --texto-segundario: #0d0d0d;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: var(--fundo-principal);
-    color: var(--texto-principal);
-    position: sticky;
-    top: -15px;
-}
-
-header img {
-    width: 100px;
-}
-
 .hero{
     background-image: url(../imagens/predio-imobiliaria-fachada.png);
     background-position: center;
@@ -164,10 +133,13 @@ footer {
 
 }
 
-footer section {
+footer div {
     width: 100%;
     display: flex;
-    align-items: start;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
 
+footer img {
+    width: 3rem;
 }

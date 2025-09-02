@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--fundo-principal);
+    color: var(--texto-principal);
+    position: sticky;
+    top: -15px;
+    border-bottom: 1px solid var(--cor-detalhes);
+}
+
+header img {
+    width: 100px;
+}
