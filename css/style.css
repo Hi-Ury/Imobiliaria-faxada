@@ -29,13 +29,13 @@
     color: var(--texto-segundario);
     background-color: var(--cor-detalhes);
     border: solid 2px var(--cor-detalhes);
+    transition-duration: 0.5s;
 }
 
 .hero button:hover {
     background-color: var(--cor-destaque);
     color: var(--texto-principal);
     border: solid 2px var(--texto-principal);
-    transition-duration: 0.5s;
 }
 
 .servico {
@@ -44,7 +44,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     padding: 30px 10px;
 }
 
@@ -62,6 +62,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    transition-duration: 0.5s;
 }
 
 .card h2 {
@@ -79,10 +80,10 @@
 }
 
 .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 1px 1px 5px var(--cor-detalhes);
-    transition-duration: 0.5s;
 }
+
 .educacao {
     background-color: var(--cor-destaque);
     padding: 20px;
@@ -102,13 +103,13 @@
     color: var(--texto-segundario);
     background-color: var(--cor-detalhes);
     border: solid 2px var(--cor-detalhes);
+    transition-duration: 0.5s;
 }
 
 .educacao button:hover {
     background-color: var(--fundo-principal);
     color: var(--texto-principal);
     border: solid 2px var(--texto-principal);
-    transition-duration: 0.5s;
 }
 
 .video{
